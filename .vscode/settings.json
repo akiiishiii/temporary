@@ -126,4 +126,6 @@
     "C_Cpp.enhancedColorization": "Disabled",
     "editor.renderWhitespace": "selection",
     //"terminal.integrated.fontFamily": "'Lucida console'"
+    "fileheader.Author": "He Qiujie",
+    "fileheader.LastModifiedBy": "He Qiujie",
 }
