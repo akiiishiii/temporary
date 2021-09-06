@@ -6,7 +6,7 @@
 #*.out
 
 #ipch files
-/.vscode/ipch
+#/.vscode/ipch
 
 # tempCodeRunnerFiles
-tempCodeRunnerFile.*
+#tempCodeRunnerFile.*

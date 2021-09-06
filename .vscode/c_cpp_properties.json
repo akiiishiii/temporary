@@ -1,23 +1,19 @@
 {
     "configurations": [
         {
-            "name": "Clang with MinGW",
-            //"intelliSenseMode": "windows-clang-x64",
-            "intelliSenseMode": "windows-gcc-x64",
-            "compilerPath": "D:/Program Files/LLVM/bin/gcc.exe",
+            "name": "Win32",
             "includePath": [
-                "${workspaceFolder}"
+                "${workspaceFolder}/**"
             ],
-            "defines": [],
-            "browse": {
-                "path": [
-                    "${workspaceFolder}"
-                ],
-                "limitSymbolsToIncludedHeaders": true,
-                "databaseFilename": ""
-            },
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "D:\\Program Files\\LLVM\\bin\\gcc.exe",
             "cStandard": "c11",
-            "cppStandard": "c++17"
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
         }
     ],
     "version": 4
